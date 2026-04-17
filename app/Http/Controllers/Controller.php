@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-abstract class Controller
-{
-    //
+abstract class Controller{
+    public function procesar(Request $request){
+
+        return view('exito');
+    }
 }
