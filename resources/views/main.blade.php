@@ -7,15 +7,14 @@
 </head>
 
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark mi-navbar">
+    
+<nav class="navbar navbar-expand-lg navbar-dark navbar">
     <div class="container-fluid px-0">
 
         <a class="navbar-brand ms-2" href="/main">
             <img src="{{ asset('images/icono.PNG') }}" alt="Icono" height="40">
         </a>
         
-        <!-- versión básica de buscar-->
         <div class="navbar-nav mx-auto">
             <a class="nav-link" href="/">Buscar</a>
         </div>
@@ -30,6 +29,10 @@
     </div>
 </nav>
 
+<div>
+<p class="text-center">Productos - Sobre Nosotros - Contactanos - Terminos y Usos</p>
+<div>
+
 <!-- separador para cuando incluyamos el carrusel de imagenes-->
 <div class="separador"></div>
 
@@ -42,6 +45,11 @@
     </div>
 </div>
 
+<nav class="navbar navbar-expand-lg navbar-dark navbar2">
+<a class="navbar-brand mx-auto"    
+<p><br>Copyright La Dejada Padel - Tel: 3989821394 - 2026</p>
+</a>
+</nav>
 
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
