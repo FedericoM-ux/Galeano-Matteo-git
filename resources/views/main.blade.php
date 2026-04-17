@@ -15,7 +15,7 @@
             <img src="{{ asset('images/icono.PNG') }}" alt="Icono" height="40">
         </a>
         
-        <div class="navbar-nav mx-auto">
+        <div class="navbar-brand mx-auto">
             <a class="nav-link" href="/">Buscar</a>
         </div>
 
@@ -29,9 +29,24 @@
     </div>
 </nav>
 
-<div>
-<p class="text-center">Productos - Sobre Nosotros - Contactanos - Terminos y Usos</p>
-<div>
+<nav class="navbar navbar-expand-lg navbar-dark navbar2">
+
+<div class="navbar-brand ms-2">
+<a class="nav-link" href="/">Productos</a> 
+</div>
+
+<div class="navbar-brand">
+<a class="nav-link" href=#Sobre-Nosotros>Sobre Nosotros</a>
+</div>
+
+<div class="navbar-brand">
+<a class="nav-link" href="/">Contactanos</a>
+</div>
+
+<div class="navbar-brand">
+<a class="nav-link" href="/">Terminos y Usos</a>
+</div>
+</nav>
 
 <!-- separador para cuando incluyamos el carrusel de imagenes-->
 <div class="separador"></div>
@@ -39,14 +54,14 @@
 <div class="container mt-4">
     <div class="card">
         <div class="card-body">
-            <h1 class="card-title">Sobre Nosotros</h1>
+            <h1 id=Sobre-Nosotros class="card-title">Sobre Nosotros</h1>
             <p>Somos una tienda que vende artículos de pádel, entre grips, pelotas y más. Hacemos envíos por todo Corrientes. Podés hacer consultas por nuestro Instagram o WhatsApp.</p>
         </div>
     </div>
 </div>
 
 <nav class="navbar navbar-expand-lg navbar-dark navbar2">
-<a class="navbar-brand mx-auto"    
+<a class="navbar-brand mx-auto">    
 <p><br>Copyright La Dejada Padel - Tel: 3989821394 - 2026</p>
 </a>
 </nav>
