@@ -28,10 +28,17 @@
 
 <div style="text-align:center; margin-top:50px;">
     <h1>Términos y Usos</h1>
-    <p>Bienvenido a La Dejada Padel Store. Al acceder a nuestro sitio web y utilizar nuestros servicios de reserva de pistas, clases y eventos, aceptas cumplir con los siguientes términos:
-        1. Registro y Cuenta de Usuario
-        Para realizar reservas, el usuario debe crear una cuenta proporcionando datos reales y actualizados.
-        El usuario es responsable de mantener la confidencialidad de su contraseña y de todas las actividades realizadas en su cuenta.</p>
+    <p><b>1. Introduccion</b>
+        <br>Bienvenido a La Dejada - Padel Store. Estos Terminos rigen el acceso y uso de nuestros
+        servicios, incluyendo nuestro sitio web, catalogo digital y la compra de articulos de padel.
+        Al utilizar nuestro Servicio, aceptas estos Terminos. Si no estas de acuerdo, por favor no utilices la plataforma
+        ni realices compras.
+        <br><b>Proveedor del Servicio:</b> Estos Terminos son entre usted y La Dejada - Padel Store, con operaciones en Corrientes
+        y Resistencia, Argentina. 
+        <br><b>2. Requisitos de Idoneidad</b>
+        <br> Para realizar compras debes tener al menos 18 años de edad o contar con el consentimiento de tus padres o tutores. Al
+        registrarte o realizar un pedido, declaras que toda la informacion proporcionada es verdadera y precisa.
+    </p>
 </div>
 </body>
 
