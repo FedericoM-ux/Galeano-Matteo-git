@@ -29,3 +29,22 @@
     z-index: 10;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
+
+/* Ajuste de los indicadores (puntitos) */
+.carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/* Sombra suave y bordes redondeados para la tarjeta */
+.card-body.border {
+    border-color: #eee !important;
+    border-radius: 12px !important;
+}
+
+/* Ajuste para los iconos de Bootstrap (asegúrate de tener Bootstrap Icons incluido) */
+.icon-circle {
+    background-color: #f0f0f0 !important;
+}
