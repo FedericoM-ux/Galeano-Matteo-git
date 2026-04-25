@@ -68,6 +68,94 @@
     </button>
 </div>
 
+<div id="beneficiosCarousel" class="carousel slide my-4" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#beneficiosCarousel" data-bs-slide-to="0" class="active bg-dark"></button>
+        <button type="button" data-bs-target="#beneficiosCarousel" data-bs-slide-to="1" class="bg-dark"></button>
+        <button type="button" data-bs-target="#beneficiosCarousel" data-bs-slide-to="2" class="bg-dark"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="card border-0 mx-auto" style="max-width: 350px;">
+                <div class="card-body d-flex align-items-center p-4 border rounded shadow-sm">
+                    <div class="icon-circle bg-light rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 60px; height: 60px;">
+                        <i class="bi bi-credit-card fs-3 text-dark"></i>
+                    </div>
+                    <div>
+                        <h6 class="mb-0 fw-bold">Cuotas sin interés</h6>
+                        <small class="text-muted">Con tarjetas bancarizadas</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="card border-0 mx-auto" style="max-width: 350px;">
+                <div class="card-body d-flex align-items-center p-4 border rounded shadow-sm">
+                    <div class="icon-circle bg-light rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 60px; height: 60px;">
+                        <i class="bi bi-truck fs-3 text-dark"></i>
+                    </div>
+                    <div>
+                        <h6 class="mb-0 fw-bold">Envíos a todo el país</h6>
+                        <small class="text-muted">Gratis superando los $99.000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="card border-0 mx-auto" style="max-width: 350px;">
+                <div class="card-body d-flex align-items-center p-4 border rounded shadow-sm">
+                    <div class="icon-circle bg-light rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 60px; height: 60px;">
+                        <i class="bi bi-shield-lock fs-3 text-dark"></i>
+                    </div>
+                    <div>
+                        <h6 class="mb-0 fw-bold">Comprá con seguridad</h6>
+                        <small class="text-muted">Tus datos siempre protegidos</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-6 text-center border rounded p-4 shadow-sm bg-white">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_Color_Logo.svg" alt="Google" width="40" class="mb-2">
+            <h3 class="h5 mb-0">Reviews</h3>
+            <div class="display-6 fw-bold">4.8 <span class="text-warning">★★★★★</span></div>
+            <p class="text-muted small">293 reviews</p>
+            <a href="#" class="btn btn-primary rounded-pill px-4">Write a review</a>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card border-0 shadow-sm bg-light text-center p-4 position-relative">
+                <button class="btn position-absolute top-50 start-0 translate-middle-y border-0"><i class="bi bi-chevron-left"></i></button>
+                <button class="btn position-absolute top-50 end-0 translate-middle-y border-0"><i class="bi bi-chevron-right"></i></button>
+
+                <div class="card-body">
+                    <div class="rounded-circle bg-secondary text-white d-inline-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px; font-size: 1.2rem;">
+                        S
+                    </div>
+                    <h5 class="card-title mb-0">Soledad Spangaro</h5>
+                    <p class="text-muted small mb-2">January 14</p>
+                    <div class="text-warning mb-3">★★★★★</div>
+                    <p class="card-text italic">"Excelente compra! Pero más me sorprendió la rapidez con la que llegó! Voy a volver a comprar"</p>
+                    <div class="mt-3">
+                        <small class="text-muted">Posted on</small>
+                        <br>
+                        <strong class="text-primary">Google</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="card">
         <div class="card-body">
             <h1 id="sobre-nosotros" class="card-title">Sobre Nosotros</h1>
