@@ -44,6 +44,8 @@
                 <ul class="navbar-nav mx-auto text-uppercase fw-semibold">
                     <li class="nav-item"><a class="nav-link px-3" href="/main">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="/productos">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="/ofertas">Ofertas</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="/ventaMayorista">Venta Mayorista</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="#sobre-nosotros">Sobre Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="/comercialización">Comercialización</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="/contacto">Contáctanos</a>
@@ -125,62 +127,62 @@
     </div>
 </div>
 
-<div class="main-banner-section position-relative text-white overflow-hidden" style="background-image: url('{{ asset('images/babolat-main.jpg') }}');">
-        <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-25"></div>
+<div class="main-banner-section position-relative text-white overflow-hidden mb-5" style="background-image: url('{{ asset('images/babolat-main.jpg') }}');">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-25"></div>
 
-        <div class="container position-relative z-index-1 py-5">
-            <div class="row align-items-center mb-5 mt-4">
-                <div class="col-md-7 text-center text-md-start">
-                    <h1 class="display-4 fw-bold">Encontrá tu paleta para el 2026 aquí:</h1>
+    <div class="container position-relative z-index-1 py-5">
+        <div class="row align-items-center mb-5 mt-4">
+            <div class="col-md-7 text-center text-md-start">
+                <h1 class="display-4 fw-bold">COLECCION BABOLAT:</h1>
+            </div>
+        </div>
+
+        <div class="row g-4 g-lg-5 product-overlay-row justify-content-center">
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/bolso-babolat.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Bolso Babolat Lite Negro</p>
+                        <h5 class="fw-bold mb-1">$125,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $41,666 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
+                    </div>
                 </div>
             </div>
-            <div class="row g-3 product-overlay-row justify-content-center">
-                
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/short-babolat.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Short Babolat Aero</p>
+                        <h5 class="fw-bold mb-1">$40,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $13,333 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
                     </div>
                 </div>
+            </div>
 
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/remera-babolat-gris.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Remera Babolat</p>
+                        <h5 class="fw-bold mb-1">$17,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $5,666 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
                     </div>
                 </div>
+            </div>
 
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/bolso-babolat.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Paleta Babolat Stima Energy</p>
+                        <h5 class="fw-bold mb-1">$420,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $140,000 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
                     </div>
                 </div>
             </div>
@@ -188,62 +190,62 @@
     </div>
 </div>
 
-<div class="main-banner-section position-relative text-white overflow-hidden" style="background-image: url('{{ asset('images/adidas-main.jpg') }}');">
-        <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-25"></div>
+<div class="main-banner-section position-relative text-white overflow-hidden mb-5" style="background-image: url('{{ asset('images/adidas-main.jpg') }}');">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-25"></div>
 
-        <div class="container position-relative z-index-1 py-5">
-            <div class="row align-items-center mb-5 mt-4">
-                <div class="col-md-7 text-center text-md-start">
-                    <h1 class="display-4 fw-bold">Encontrá tu paleta para el 2026 aquí:</h1>
+    <div class="container position-relative z-index-1 py-5">
+        <div class="row align-items-center mb-5 mt-4">
+            <div class="col-md-7 text-center text-md-start">
+                <h1 class="display-4 fw-bold">COLECCION ADIDAS:</h1>
+            </div>
+        </div>
+
+        <div class="row g-4 g-lg-5 product-overlay-row justify-content-center">
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/zapatilla-adidas.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Zapatillas Adidas Crazyquick Amarillo (Hombre)</p>
+                        <h5 class="fw-bold mb-1">$180,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $60,000 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
+                    </div>
                 </div>
             </div>
-            <div class="row g-3 product-overlay-row justify-content-center">
-                
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/paleta-adidas.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Paleta Adidas RX Series Red</p>
+                        <h5 class="fw-bold mb-1">$200,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $66,666 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
                     </div>
                 </div>
+            </div>
 
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/bolso-adidas.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Bolso Adidas</p>
+                        <h5 class="fw-bold mb-1">$150,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $50,000 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
                     </div>
                 </div>
+            </div>
 
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/paleta-adidas-1.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Paleta Adids X-Treme Lima 2021</p>
+                        <h5 class="fw-bold mb-1">$270,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $90,000 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
                     </div>
                 </div>
             </div>
@@ -251,62 +253,62 @@
     </div>
 </div>
 
-<div class="main-banner-section position-relative text-white overflow-hidden" style="background-image: url('{{ asset('images/Palas-bullpadel---2026.png') }}');">
-        <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-25"></div>
+<div class="main-banner-section position-relative text-white overflow-hidden mb-5" style="background-image: url('{{ asset('images/Palas-bullpadel---2026.png') }}');">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-25"></div>
 
-        <div class="container position-relative z-index-1 py-5">
-            <div class="row align-items-center mb-5 mt-4">
-                <div class="col-md-7 text-center text-md-start">
-                    <h1 class="display-4 fw-bold">Encontrá tu paleta para el 2026 aquí:</h1>
+    <div class="container position-relative z-index-1 py-5">
+        <div class="row align-items-center mb-5 mt-4">
+            <div class="col-md-7 text-center text-md-start">
+                <h1 class="display-4 fw-bold">COLECCION BULLPADEL:</h1>
+            </div>
+        </div>
+
+        <div class="row g-4 g-lg-5 product-overlay-row justify-content-center">
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/bolso-bull.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Bolso Bullpadel</p>
+                        <h5 class="fw-bold mb-1">$210,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
+                    </div>
                 </div>
             </div>
-            <div class="row g-3 product-overlay-row justify-content-center">
-                
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/media-bull.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Media Bullpadel</p>
+                        <h5 class="fw-bold mb-1">$8,500</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $2,833 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
                     </div>
                 </div>
+            </div>
 
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/remera-babolat-gris.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Pelotas Bullpadel</p>
+                        <h5 class="fw-bold mb-1">$13,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $4,333 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
                     </div>
                 </div>
+            </div>
 
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class = "col-12 col-md-6 col-lg-3">
-                    <div class = "card h-100 border-0 shadow-sm text-center">
-                        <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
-                        <div class = "card-body">
-                            <p class = "text-muted small mb-1">Paleta Bullpadel Onyx Power 2.0 Rojo</p>
-                            <h5 class = "fw-bold mb-1">$210,000</h5>
-                            <p class = "text-danger small mb-3">3 cuotas de $70,000 sin interes</p>
-                            <button class = "btn btn-dark w-100 fw bold py-2">COMPRAR <i class = "bi bi-cart"></i></button>
-                        </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow text-center">
+                    <img src="{{ asset('images/remera-bull.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <div class="card-body">
+                        <p class="text-muted small mb-1">Remera Bullpadel</p>
+                        <h5 class="fw-bold mb-1">$45,000</h5>
+                        <p class="text-danger small mb-3">3 cuotas de $15,000 sin interes</p>
+                        <button class="btn btn-dark w-100 fw-bold py-2">COMPRAR <i class="bi bi-cart"></i></button>
                     </div>
                 </div>
             </div>
@@ -409,6 +411,8 @@
         </div>
     </div>
 </div>
+
+
 
 <div class="card">
         <div class="card-body">
