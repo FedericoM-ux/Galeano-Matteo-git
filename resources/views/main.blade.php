@@ -46,7 +46,7 @@
                     <li class="nav-item"><a class="nav-link px-3" href="/productos">Productos</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="/ofertas">Ofertas</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="/ventaMayorista">Venta Mayorista</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#sobre-nosotros">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="/sobre-nosotros">Sobre Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="/comercialización">Comercialización</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="/contacto">Contáctanos</a>
                     <li class="nav-item"><a class="nav-link px-3" href="/términos">Términos y Usos</a></li>
@@ -127,13 +127,15 @@
     </div>
 </div>
 
+<div class="separadorG"></div>
+
 <div class="main-banner-section position-relative text-white overflow-hidden mb-5" style="background-image: url('{{ asset('images/babolat-main.jpg') }}');">
     <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-25"></div>
 
     <div class="container position-relative z-index-1 py-5">
         <div class="row align-items-center mb-5 mt-4">
             <div class="col-md-7 text-center text-md-start">
-                <h1 class="display-4 fw-bold">COLECCION BABOLAT:</h1>
+                <span class="navbarGreenWords display-6 fw-bold">COLECCIÓN BABOLAT</span>
             </div>
         </div>
 
@@ -190,13 +192,15 @@
     </div>
 </div>
 
+<div class="separadorG"></div>
+
 <div class="main-banner-section position-relative text-white overflow-hidden mb-5" style="background-image: url('{{ asset('images/adidas-main.jpg') }}');">
     <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-25"></div>
 
     <div class="container position-relative z-index-1 py-5">
         <div class="row align-items-center mb-5 mt-4">
             <div class="col-md-7 text-center text-md-start">
-                <h1 class="display-4 fw-bold">COLECCION ADIDAS:</h1>
+                <span class="navbarGreenWords display-6 fw-bold">COLECCIÓN ADIDAS</span>
             </div>
         </div>
 
@@ -204,7 +208,7 @@
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card h-100 border-0 shadow text-center">
-                    <img src="{{ asset('images/zapatilla-adidas.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <img src="{{ asset('images/zapatilla-adidas.jpeg') }}" class="card-img-top" alt="Paleta Babolat">
                     <div class="card-body">
                         <p class="text-muted small mb-1">Zapatillas Adidas Crazyquick Amarillo (Hombre)</p>
                         <h5 class="fw-bold mb-1">$180,000</h5>
@@ -216,7 +220,7 @@
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card h-100 border-0 shadow text-center">
-                    <img src="{{ asset('images/paleta-adidas.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <img src="{{ asset('images/paleta-adidas.jpeg') }}" class="card-img-top" alt="Paleta Babolat">
                     <div class="card-body">
                         <p class="text-muted small mb-1">Paleta Adidas RX Series Red</p>
                         <h5 class="fw-bold mb-1">$200,000</h5>
@@ -228,7 +232,7 @@
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card h-100 border-0 shadow text-center">
-                    <img src="{{ asset('images/bolso-adidas.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <img src="{{ asset('images/bolso-adidas.jpeg') }}" class="card-img-top" alt="Paleta Babolat">
                     <div class="card-body">
                         <p class="text-muted small mb-1">Bolso Adidas</p>
                         <h5 class="fw-bold mb-1">$150,000</h5>
@@ -240,7 +244,7 @@
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card h-100 border-0 shadow text-center">
-                    <img src="{{ asset('images/paleta-adidas-1.jpeg') }}" class="card-img-top p-3" alt="Paleta Babolat">
+                    <img src="{{ asset('images/paleta-adidas-1.jpeg') }}" class="card-img-top" alt="Paleta Babolat">
                     <div class="card-body">
                         <p class="text-muted small mb-1">Paleta Adids X-Treme Lima 2021</p>
                         <h5 class="fw-bold mb-1">$270,000</h5>
@@ -253,13 +257,15 @@
     </div>
 </div>
 
+<div class="separadorG"></div>
+
 <div class="main-banner-section position-relative text-white overflow-hidden mb-5" style="background-image: url('{{ asset('images/Palas-bullpadel---2026.png') }}');">
     <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-25"></div>
 
     <div class="container position-relative z-index-1 py-5">
         <div class="row align-items-center mb-5 mt-4">
             <div class="col-md-7 text-center text-md-start">
-                <h1 class="display-4 fw-bold">COLECCION BULLPADEL:</h1>
+                <span class="navbarGreenWords display-6 fw-bold">COLECCIÓN BULLPADEL</span>
             </div>
         </div>
 
@@ -320,8 +326,8 @@
     <div class="row g-3"> <div class="col-12 col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm p-3">
                 <div class="d-flex align-items-center">
-                    <div class="icon-box bg-light rounded-circle d-flex align-items-center justify-content-center me-3">
-                        <i class="bi bi-credit-card fs-4"></i>
+                    <div class="circulo">
+                    <img src="{{ asset('images/tarjeta2.svg') }}" alt="tajeta" width="15">
                     </div>
                     <div>
                         <h6 class="mb-0 fw-bold">Cuotas sin interés</h6>
@@ -334,8 +340,8 @@
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm p-3">
                 <div class="d-flex align-items-center">
-                    <div class="icon-box bg-light rounded-circle d-flex align-items-center justify-content-center me-3">
-                        <i class="bi bi-lock fs-4"></i>
+                    <div class="circulo">
+                    <img src="{{ asset('images/candado.svg') }}" alt="candado" width="15">
                     </div>
                     <div>
                         <h6 class="mb-0 fw-bold">Comprá con seguridad</h6>
@@ -348,8 +354,8 @@
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm p-3">
                 <div class="d-flex align-items-center">
-                    <div class="icon-box bg-light rounded-circle d-flex align-items-center justify-content-center me-3">
-                        <i class="bi bi-truck fs-4"></i>
+                    <div class="circulo">
+                    <img src="{{ asset('images/camion.svg') }}" alt="camion" width="15">
                     </div>
                     <div>
                         <h6 class="mb-0 fw-bold">Envíos a todo el país</h6>
@@ -362,8 +368,8 @@
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm p-3">
                 <div class="d-flex align-items-center">
-                    <div class="icon-box bg-light rounded-circle d-flex align-items-center justify-content-center me-3">
-                        <i class="bi bi-whatsapp fs-4"></i>
+                    <div class="circulo">
+                        <img src="{{ asset('images/brand-whatsapp.svg') }}" alt="wpp" width="15">
                     </div>
                     <div>
                         <h6 class="mb-0 fw-bold">Comunicate con nosotros</h6>
@@ -376,18 +382,19 @@
     </div>
 </div>
 
+<div class="separadorG"></div>
+
 <div class="container my-5">
     <div class="row justify-content-center mb-4">
         <div class="col-md-6 text-center border rounded p-4 shadow-sm bg-white">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_Color_Logo.svg" alt="Google" width="40" class="mb-2">
+            <img src="{{ asset('images/google-color.svg') }}" alt="Google" width="40" class="mb-2">
             <h3 class="h5 mb-0">Reviews</h3>
             <div class="display-6 fw-bold">4.8 <span class="text-warning">★★★★★</span></div>
             <p class="text-muted small">293 reviews</p>
             <a href="#" class="btn btn-primary rounded-pill px-4">Write a review</a>
         </div>
-    </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center g-4">
         <div class="col-md-5">
             <div class="card border-0 shadow-sm bg-light text-center p-4 position-relative">
                 <button class="btn position-absolute top-50 start-0 translate-middle-y border-0"><i class="bi bi-chevron-left"></i></button>
@@ -408,17 +415,31 @@
                     </div>
                 </div>
             </div>
+    </div>
+
+        <div class="col-md-5">
+            <div class="card border-0 shadow-sm bg-light text-center p-4 position-relative">
+                <button class="btn position-absolute top-50 start-0 translate-middle-y border-0"><i class="bi bi-chevron-left"></i></button>
+                <button class="btn position-absolute top-50 end-0 translate-middle-y border-0"><i class="bi bi-chevron-right"></i></button>
+
+                <div class="card-body">
+                    <div class="rounded-circle bg-secondary text-white d-inline-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px; font-size: 1.2rem;">
+                        M
+                    </div>
+                    <h5 class="card-title mb-0">Miranda</h5>
+                    <p class="text-muted small mb-2">March 7</p>
+                    <div class="text-warning mb-3">★★★★★</div>
+                    <p class="card-text italic">"El producto llegó en perfecto estado y tal como se veía en la página. La atención fue rápida y clara."</p>
+                    <div class="mt-3">
+                        <small class="text-muted">Posted on</small>
+                        <br>
+                        <strong class="text-primary">Google</strong>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
-
-
-<div class="card">
-        <div class="card-body">
-            <h1 id="sobre-nosotros" class="card-title">Sobre Nosotros</h1>
-            <p>Somos una tienda dedicada a la venta de artículos de pádel, donde podés encontrar una amplia variedad de productos como grips, pelotas, paletas y accesorios esenciales para mejorar tu juego. Trabajamos con productos de calidad para jugadores de todos los niveles, desde principiantes hasta más avanzados.<br><br>Realizamos envíos a toda la provincia de Corrientes, buscando que tu compra llegue de forma rápida y segura hasta tu domicilio. Además, ofrecemos atención personalizada para ayudarte a elegir el equipamiento que mejor se adapte a tus necesidades.<br><br>Podés hacer consultas, pedir recomendaciones o coordinar compras a través de nuestro Instagram o WhatsApp, donde respondemos de manera ágil para brindarte la mejor experiencia posible. Nuestro objetivo es acompañarte dentro y fuera de la cancha, ofreciéndote todo lo necesario para disfrutar al máximo del pádel.</p>        
-    </div>
 </div>
 
 <nav class="navbar navbar-expand-lg navbar-dark navbar2">
