@@ -33,3 +33,7 @@ Route::get('/contacto', function () {
 Route::get('/términos', function () {
     return view('términos');
 });
+
+Route::get('/sobre-nosotros', function () {
+    return view('sobre-nosotros');
+});
