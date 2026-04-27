@@ -13,7 +13,7 @@
     <div class="container-fluid py-3">
             <div class="col-md-3">
                 <a class="navbar-brand d-flex align-items-center" href="/main">
-                    <img src="{{ asset('images/Icono.PNG') }}" alt="Logo La Dejada" width="130" class="me-2">
+                    <img src="{{ asset('images/Icono.PNG') }}" alt="Logo La Dejada" width="180" class="me-2">
                 </a>
             </div>
             
@@ -35,7 +35,7 @@
     </div>
 </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light navbar2">
+    <nav class="navbar navbar-expand-lg navbar-light navbarW">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -55,6 +55,8 @@
         </div>
     </nav>
 </body>
+
+<div class="separadorG"></div>
 
 <section class="py-5 bg-white">
     <div class="container">
@@ -117,9 +119,15 @@
 
 <div class="separador"></div>
 
-<nav class="navbar navbar-expand-lg navbar-dark navbar2">
+<div class="linea-end"></div>
+
+<nav class="navbar navbar-expand-lg navbar-dark navbarW">
     <a class="navbar-brand mx-auto">
-        <p><br>Copyright La Dejada Padel - Tel: 3989821394 - 2026</p>
+        <p class="text-dark"><br>Seguinos en nuestras redes sociales: </p>
+        <img src="{{ asset('images/brand-whatsapp.svg') }}" alt="wpp" width="40">
+        <img src="{{ asset('images/brand-facebook.svg') }}" alt="fb" width="40">
+        <img src="{{ asset('images/brand-instagram.svg') }}" alt="ig" width="40">
+        <p class="text-dark"><br>© 2026 - La Dejada Padel - Todas las marcas son propiedad de sus respectivos dueños - Todos los derechos reservados</p>
     </a>
 </nav>
 
