@@ -55,22 +55,41 @@
 
 <div class="separador"></div>
 
-<form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">Nosotros nunca compartiremos tu email con nadie mas.</div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-</form>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5"> <div class="card shadow border-0 p-4">
+                <div class="card-body">
+                    <h3 class="text-center mb-4 fw-bold">Iniciar Sesión</h3>
+                    
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label text-secondary">Correo Electrónico</label>
+                            <input type="email" class="form-control" placeholder="nombre@ejemplo.com">
+                            <div class="form-text text-muted">
+                                Nosotros nunca compartiremos tu email con nadie más.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-secondary">Contraseña</label>
+                            <input type="password" class="form-control" placeholder="••••••••">
+                            <a href="#" class="text-decoration-none small-link">¿Olvidaste tu contraseña?</a>
+                        </div>
+
+                        <div class="mb-4 form-check">
+                            <input type="checkbox" class="form-check-input" id="recordar">
+                            <label class="form-check-label" for="recordar">Recuérdame</label>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success btn-lg">Iniciar Sesión</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="separador"></div>
 
