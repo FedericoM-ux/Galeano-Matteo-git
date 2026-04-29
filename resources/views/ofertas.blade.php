@@ -2,7 +2,7 @@
 @section('contenido')
 <div class="container my-5">
     <div class="row g-4">
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-6 col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/grip-relieve.jpeg') }}" class="card-img-top p-3" alt="Grip X-Trust">
                 <div class="card-body">
@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-6 col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/remera-head.jpeg') }}" class="card-img-top p-3" alt="Remera Head">
                 <div class="card-body">
@@ -26,7 +26,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-6 col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/pelota-penn.jpeg') }}" class="card-img-top p-3" alt="Pelota Penn">
                 <div class="card-body">
@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-6 col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/pelota-rosa.jpeg') }}" class="card-img-top p-3" alt="Pelota AmaSport">
                 <div class="card-body">

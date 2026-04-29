@@ -2,7 +2,7 @@
 @section('contenido')
 <div class = "container-fluid my-5">
     <div class = "row g-4">
-        <div class = "col-12 col-md-6 col-lg-3">
+        <div class = "col-6 col-md-6 col-lg-3">
             <div class = "card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/paleta-hombre.jpeg') }}" class = "card-img-top p-3"alt="Paleta Hombre">
                 <div class = "card-body">
@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <div class = "col-12 col-md-6 col-lg-3">
+        <div class = "col-6 col-md-6 col-lg-3">
             <div class = "card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/paleta-mujer.jpeg') }}" class = "card-img-top p-3" alt="Paleta Mujer">
                 <div class = "card-body">
@@ -26,7 +26,7 @@
             </div>
         </div>
 
-        <div class = "col-12 col-md-6 col-lg-3">
+        <div class = "col-6 col-md-6 col-lg-3">
             <div class = "card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/pelotas-bull.jpeg') }}" class = "card-img-top p-3" alt="Pelotas Bullpadel">
                 <div class = "card-body">
@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <div class = "col-12 col-md-6 col-lg-3">
+        <div class = "col-6 col-md-6 col-lg-3">
             <div class = "card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/pelotas-xtrust.jpeg') }}" class = "card-img-top p-3" alt="Pelotas X-Trust">
                 <div class = "card-body">
@@ -50,7 +50,7 @@
             </div>
         </div>
 
-        <div class = "col-12 col-md-6 col-lg-3">
+        <div class = "col-6 col-md-6 col-lg-3">
             <div class = "card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/pelotas-odea.jpeg') }}" class = "card-img-top p-3" alt="Pelotas Odea">
                 <div class = "card-body">
@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <div class = "col-12 col-md-6 col-lg-3">
+        <div class = "col-6 col-md-6 col-lg-3">
             <div class = "card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/remera-babolat.jpeg') }}" class = "card-img-top p-3" alt="Remera Babolat">
                 <div class = "card-body">
@@ -74,7 +74,7 @@
             </div>
         </div>
 
-        <div class = "col-12 col-md-6 col-lg-3">
+        <div class = "col-6 col-md-6 col-lg-3">
             <div class = "card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/remera-wilson.jpeg') }}" class = "card-img-top p-3" alt="Remera Wilson">
                 <div class = "card-body">
@@ -86,7 +86,7 @@
             </div>
         </div>
 
-        <div class = "col-12 col-md-6 col-lg-3">
+        <div class = "col-6 col-md-6 col-lg-3">
             <div class = "card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/grip-blanco.jpeg') }}" class = "card-img-top p-3" alt="grip blanco">
                 <div class = "card-body">
@@ -98,7 +98,7 @@
             </div>
         </div>
 
-        <div class = "col-12 col-md-6 col-lg-3">
+        <div class = "col-6 col-md-6 col-lg-3">
             <div class = "card h-100 border-0 shadow-sm text-center">
                 <img src="{{ asset('images/grip-negro.jpeg') }}" class = "card-img-top p-3" alt="grips negros">
                 <div class = "card-body">
