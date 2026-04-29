@@ -114,6 +114,7 @@
 .menu-mobile{
     display:none;
     width:100%;
+    text-align: center;
 }
 
 #menu-toggle:checked ~ .menu-mobile{
